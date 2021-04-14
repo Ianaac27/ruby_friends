@@ -32,9 +32,17 @@
 
 <%= link_to 'Add Friend', new_friend_path, class: "btn btn-secondary" %>
 <% else %>
-  <h1>Welcome!</h1>
-  <p>We are here to help you stay connected! You can either log in to connect with your friends, or sign up if you do not have an account.</p>
-  <%= link_to 'Log in', new_user_session_path, class: "btn btn-secondary" %>
-  <%= link_to 'Sign up', new_user_registration_path, class: "btn btn-dark" %>
+
+<div class="card">
+  <h2 class="card-header">Welcome!</h2>
+  <div class="card-body">
+    <p>We are here to help you stay connected! You can either log in to connect with your friends, or sign up if you do not have an account.</p>
+    <br>
+      <%= link_to 'Log in', new_user_session_path, class: "btn btn-secondary" %>
+      <%= link_to 'Sign up', new_user_registration_path, class: "btn btn-dark" %> 
+  </div>
+</div>
+  
+ 
 
 <% end %>
