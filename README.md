@@ -25,7 +25,7 @@ Ianaac27
 
 Here is a mock of The Friend App.
 
-![ruby_friends](public/screenshot.jpg)
+![ruby_friends](public/screenshot.png)
 
 # Link
 
